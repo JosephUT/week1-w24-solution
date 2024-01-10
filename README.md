@@ -19,7 +19,7 @@ Lab 1.
 The other files may require you to look at CMake or C++ documentation, but general concepts were 
 covered in Lab 1, and references and examples from the slides will be useful.
 
-## Testing
+### Testing
 Each section in problem 1 can be tested separately by running the corresponding ```test_cmake/test_*``` 
 CMake script. The correct outputs are stored in the corresponding ```test_cmake/test_*``` file. You can 
 run the test script and diff against the correct output. The commands for testing the functions are 
