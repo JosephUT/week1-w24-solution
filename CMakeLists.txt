@@ -71,7 +71,7 @@ target_link_libraries(test_message_table
 )
 # End solution code.
 
-# TODO: Register the all five GTest unit tests above with CTest. This should require only one GTest helper function.
+# TODO: Register the all four GTest unit tests above with CTest. This should require only one GTest helper function.
 # Begin solution code.
 gtest_discover_tests(
         test_bracket_checking

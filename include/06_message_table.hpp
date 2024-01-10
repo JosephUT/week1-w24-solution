@@ -1,5 +1,5 @@
-#ifndef WEEK1_W24_SOLUTION_4_PARAMETER_TABLE_HPP
-#define WEEK1_W24_SOLUTION_4_PARAMETER_TABLE_HPP
+#ifndef WEEK1_W24_SOLUTION_MESSAGE_TABLE_HPP
+#define WEEK1_W24_SOLUTION_MESSAGE_TABLE_HPP
 
 #include <unordered_map>
 
@@ -73,4 +73,4 @@ class MessageTable {
   std::unordered_map<std::string, std::pair<StringMessage, int>> messages;
 };
 
-#endif  // WEEK1_W24_SOLUTION_4_PARAMETER_TABLE_HPP
+#endif  // WEEK1_W24_SOLUTION_MESSAGE_TABLE_HPP

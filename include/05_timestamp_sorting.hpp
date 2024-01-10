@@ -1,5 +1,5 @@
-#ifndef WEEK1_W24_SOLUTION_TIMESTAMP_SORTER_HPP
-#define WEEK1_W24_SOLUTION_TIMESTAMP_SORTER_HPP
+#ifndef WEEK1_W24_SOLUTION_TIMESTAMP_SORTING_HPP
+#define WEEK1_W24_SOLUTION_TIMESTAMP_SORTING_HPP
 
 #include <queue>
 
@@ -35,4 +35,4 @@ std::vector<StringMessage> sort_by_timestamp(const std::vector<StringMessage> &m
   // End solution code.
 }
 
-#endif  // WEEK1_W24_SOLUTION_TIMESTAMP_SORTER_HPP
+#endif  // WEEK1_W24_SOLUTION_TIMESTAMP_SORTING_HPP
