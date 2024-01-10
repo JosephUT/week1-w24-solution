@@ -1,0 +1,5 @@
+include(01_cmake_programming.cmake)
+
+print_first_line_in_file("test_cmake/correct_test_output/insert_robotics_and_print.txt")
+print_first_line_in_file("test_cmake/correct_test_output/insert_robotics_and_prin.txt")
+print_first_line_in_file("test_cmake/correct_test_output/print_identical_values.txt")
