@@ -1,9 +1,11 @@
 # Homework 1
+{: .no_toc }
+Due 11:59PM Jan 26, 2024
+{: .fs-6 .fw-300 }
 
-## Coding Problems
 There are six files with coding problems. Read each file and complete the sections marked **TODO**.
 Although you can complete the problems in any order, it will be most convenient to follow the order
-below. 
+below.
 
 1. CMake Programming. ```01_cmake_programming.cmake```
 2. CMake Project with GTest. ```CMakeLists.txt```
@@ -13,16 +15,16 @@ below.
 6. Hash Maps. ```06_message_table.hpp```
 
 It will be especially critical that you complete the **TODO**'s in ```CMakeLists.txt```, as you will not be
-able to run your unit tests otherwise. Everything you will need for this file was covered explicitly in 
+able to run your unit tests otherwise. Everything you will need for this file was covered explicitly in
 Lab 1.
 
-The other files may require you to look at CMake or C++ documentation, but general concepts were 
+The other files may require you to look at CMake or C++ documentation, but general concepts were
 covered in Lab 1, and references and examples from the slides will be useful.
 
-### Testing
-Each section in problem 1 can be tested separately by running the corresponding ```test_cmake/test_*``` 
-CMake script. The correct outputs are stored in the corresponding ```test_cmake/test_*``` file. You can 
-run the test script and diff against the correct output. The commands for testing the functions are 
+## Testing
+Each section in problem 1 can be tested separately by running the corresponding ```test_cmake/test_*```
+CMake script. The correct outputs are stored in the corresponding ```test_cmake/test_*``` file. You can
+run the test script and diff against the correct output. The commands for testing the functions are
 below and are intended to be run from the root directory.
 
 **insert_robotics_and_print()**
@@ -55,7 +57,23 @@ rm output.txt
 
 You should see that the outputs are identical for all four test functions.
 
-Problems 3-6 should be tested by invoking the unit tests under ```/test```. After completing problem 2, 
-you should be able to invoke your unit tests either through the CLion interface or by running ```ctest``` 
-in the root of the build tree. Refer to the testing usage discussion in Lab 1. All tests should pass after 
+Problems 3-6 should be tested by invoking the unit tests under ```/test```. After completing problem 2,
+you should be able to invoke your unit tests either through the CLion interface or by running ```ctest```
+in the root of the build tree. Refer to the testing usage discussion in Lab 1. All tests should pass after
 completion.
+
+## Grading and Submission
+
+Points for this homework will be assigned as follows.
+
+- 0.25 - All ```insert_robotics_and_print()``` output matches.
+- 0.25 - All ```weave_arguments_and_print()``` output matches.
+- 0.25 - All ```print_identical_values()``` output matches.
+- 0.25 - All ```print_first_line_in_file()``` output matches.
+- 1 - All code builds. NOTE: We will not assign points for 3-6 if they do not build.
+- 0.25 - All ```BracketChecking``` test cases pass.
+- 0.25 - All ```MessageHolder``` test cases pass.
+- 0.25 - All ```TimestampSorter``` test cases pass.
+- 0.25 - All ```MessageTable``` test cases pass.
+
+To submit, **push your code** before the deadline and submit a link to your repository in the assignment on Canvas.

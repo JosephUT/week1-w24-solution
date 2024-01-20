@@ -75,8 +75,14 @@ target_link_libraries(test_message_table
 # Begin solution code.
 gtest_discover_tests(
         test_bracket_checking
+)
+gtest_discover_tests(
         test_message_holder
+)
+gtest_discover_tests(
         test_timestamp_sorting
+)
+gtest_discover_tests(
         test_message_table
 )
 # End solution code.
