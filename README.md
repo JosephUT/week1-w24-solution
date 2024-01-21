@@ -58,9 +58,8 @@ rm output.txt
 You should see that the outputs are identical for all four test functions.
 
 Problems 3-6 should be tested by invoking the unit tests under ```/test```. After completing problem 2,
-you should be able to invoke your unit tests either through the CLion interface or by running ```ctest```
-in the root of the build tree. Refer to the testing usage discussion in Lab 1. All tests should pass after
-completion.
+you should be able to invoke your unit tests by running ```ctest``` in the root of the build tree. Refer
+to the testing usage discussion in Lab 1. All tests should pass after completion.
 
 ## Grading and Submission
 
@@ -76,4 +75,4 @@ Points for this homework will be assigned as follows.
 - 0.25 - All ```TimestampSorter``` test cases pass.
 - 0.25 - All ```MessageTable``` test cases pass.
 
-To submit, **push your code** before the deadline and submit a link to your repository in the assignment on Canvas.
+To submit, **push your code** before the deadline and **submit a link** to your repository in the assignment on Canvas.
